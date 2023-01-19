@@ -1,15 +1,13 @@
 // функция для вслытия cookies
 const cookies = document.getElementById("cookies")
 
-let start = Date.now() // запомнить время начала
+let start = Date.now()
 let timer = setInterval(function () {
-    // сколько времени прошло с начала анимации?
     let timePassed = Date.now() - start
     if (timePassed >= 2000) {
-        clearInterval(timer) // закончить анимацию через 2 секунды
+        clearInterval(timer)
         return
     }
-    // отрисовать анимацию на момент timePassed, прошедший с начала анимации
     draw(timePassed)
 }, 100)
 
@@ -22,6 +20,8 @@ function useCookies() {
     cookies.style.display = "none"
 }
 
-document
-    .getElementById("button-use-cookies")
-    .addEventListener("click", useCookies)
+setTimeout(() => {
+    document
+        .getElementById("button-use-cookies")
+        .addEventListener("click", useCookies)
+}, 2100)

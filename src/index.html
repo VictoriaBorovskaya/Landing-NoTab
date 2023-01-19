@@ -16,19 +16,31 @@
         <script type="module" src="app.js"></script>
     </head>
     <body>
+        <div class="cookies" id="cookies">
+            <div class="section__cookies">
+                <p class="section__cookies_text">
+                    We use cookie to improve your experience on our site. By
+                    using our site you consent cookies.
+                </p>
+                <button class="section__cookies_button" id="button-use-cookies">
+                    OK
+                </button>
+            </div>
+        </div>
+
         <div class="header">
             <header>
                 <div class="header__logo">
                     <img
                         src="/images/logo-icon.png"
-                        class="header__logo_icon"
+                        class="header__logo_icon" alt=""
                     />
                     <p class="header__logo_text">NoTab</p>
                 </div>
                 <div class="header__login">
                     <img
                         src="/images/login-icon.png"
-                        class="header__login_icon"
+                        class="header__login_icon" alt=""
                     />
                     <a class="header__login_link">Login</a>
                 </div>
@@ -52,7 +64,7 @@
                 <div class="header__info_image">
                     <img
                         src="/images/iPhone-image.png"
-                        class="header__info_image-phone"
+                        class="header__info_image-phone" alt=""
                     />
                     <div class="header__info_image-shadow"></div>
                 </div>
@@ -63,28 +75,17 @@
                     <button>
                         <img
                             src="/images/download-app-store.png"
-                            class="section__download_images-padding section__download_images-phone"
+                            class="section__download_images-padding section__download_images-phone" alt=""
                         />
                     </button>
                     <button>
                         <img
                             src="/images/download-google-play.png"
                             class="section__download_images-phone"
+                            alt=""
                         />
                     </button>
                 </div>
-            </div>
-        </div>
-
-        <div class="cookies" id="cookies">
-            <div class="section__cookies">
-                <p class="section__cookies_text">
-                    We use cookie to improve your experience on our site. By
-                    using our site you consent cookies.
-                </p>
-                <button class="section__cookies_button" id="button-use-cookies">
-                    OK
-                </button>
             </div>
         </div>
 
@@ -104,7 +105,7 @@
         <main>
             <section class="mission">
                 <div class="mission__image">
-                    <img src="/images/iPhone-image.png" />
+                    <img src="/images/iPhone-image.png" alt="" />
                 </div>
                 <div class="mission__text" id="mission__text">
                     <h3 class="mission__text-title">Our mission and vision</h3>
@@ -121,7 +122,7 @@
             <div class="background">
                 <img
                     src="/images/section-scanner-image.png"
-                    class="background-image"
+                    class="background-image" alt=""
                 />
                 <div class="background-shadow"></div>
             </div>
@@ -130,11 +131,11 @@
                     <div class="IDscanner__content_image">
                         <img
                             src="/images/iPhone-verification-id.png"
-                            class="IDscanner__content_image-phone"
+                            class="IDscanner__content_image-phone" alt=""
                         />
                         <img
                             src="/images/iPhone-verification-done.png"
-                            class="IDscanner__content_image-phone"
+                            class="IDscanner__content_image-phone" alt=""
                         />
                     </div>
                     <div class="IDscanner__content_text">
@@ -163,31 +164,31 @@
                 <div class="BITool__diagrams">
                     <img
                         src="/images/diagrams/diagram-1.png"
-                        class="BITool__diagrams_image BITool__diagrams_image-1"
+                        class="BITool__diagrams_image BITool__diagrams_image-1" alt=""
                     />
                     <img
                         src="/images/diagrams/diagram-6.png"
-                        class="BITool__diagrams_image BITool__diagrams_image-2"
+                        class="BITool__diagrams_image BITool__diagrams_image-2" alt=""
                     />
                     <img
                         src="/images/diagrams/diagram-2.png"
-                        class="BITool__diagrams_image BITool__diagrams_image-3"
+                        class="BITool__diagrams_image BITool__diagrams_image-3" alt=""
                     />
                     <img
                         src="/images/diagrams/diagram-3.png"
-                        class="BITool__diagrams_image BITool__diagrams_image-4"
+                        class="BITool__diagrams_image BITool__diagrams_image-4" alt=""
                     />
                     <img
                         src="/images/diagrams/diagram-4.png"
-                        class="BITool__diagrams_image BITool__diagrams_image-5"
+                        class="BITool__diagrams_image BITool__diagrams_image-5" alt=""
                     />
                     <img
                         src="/images/diagrams/diagram-5.png"
-                        class="BITool__diagrams_image BITool__diagrams_image-6"
+                        class="BITool__diagrams_image BITool__diagrams_image-6" alt=""
                     />
                     <img
                         src="/images/diagrams/diagram-7.png"
-                        class="BITool__diagrams_image BITool__diagrams_image-7"
+                        class="BITool__diagrams_image BITool__diagrams_image-7" alt=""
                     />
                 </div>
             </section>
@@ -195,41 +196,41 @@
                 <div class="QRcode__nightlife">
                     <img
                         src="/images/Nightlife.png"
-                        class="QRcode__nightlife_image"
+                        class="QRcode__nightlife_image" alt=""
                     />
                 </div>
                 <div class="QRcode__background">
                     <img
                         src="/images/DJ.png"
-                        class="QRcode__background_image-1"
+                        class="QRcode__background_image-1" alt=""
                     />
                     <img
                         src="/images/coctail.png"
-                        class="QRcode__background_image-2"
+                        class="QRcode__background_image-2" alt=""
                     />
                     <div class="QRcode__background_shadow"></div>
                 </div>
                 <div class="QRcode__content">
                     <div class="QRcode__content_text">
-                        <p class="QRcode__content_text-title">QR code</p>
+                        <h3 class="QRcode__content_text-title">QR code</h3>
                         <p class="QRcode__content_text-info">
                             No more conflict situations due to wrong order. The
                             guest selects the positions, and after that an
                             individual QR code of his order is generated
                         </p>
                         <div class="QRcode__content_text-button">
-                            <img src="/images/download-app-store.png" />
-                            <img src="/images/download-google-play.png" />
+                            <img src="/images/download-app-store.png" alt=""/>
+                            <img src="/images/download-google-play.png" alt=""/>
                         </div>
                     </div>
                     <div class="QRcode__content_image">
                         <img
                             src="/images/QRcode-1.png"
-                            class="QRcode__content_image-1"
+                            class="QRcode__content_image-1" alt=""
                         />
                         <img
                             src="/images/QRcode-2.png"
-                            class="QRcode__content_image-2"
+                            class="QRcode__content_image-2" alt=""
                         />
                     </div>
                 </div>
@@ -240,12 +241,12 @@
                         <div class="generate-QRcode__content_shadow"></div>
                         <img
                             src="/images/QR-code.png"
-                            class="generate-QRcode__content_image"
+                            class="generate-QRcode__content_image" alt=""
                         />
                         <div class="generate-QRcode__content_scan">
                             <img
                                 src="/images/Arrow.png"
-                                class="generate-QRcode__content_scan-arrow"
+                                class="generate-QRcode__content_scan-arrow" alt=""
                             />
                             <p class="generate-QRcode__content_scan-text">
                                 Scan QR-code
@@ -254,9 +255,9 @@
                     </div>
                 </div>
                 <div class="generate-QRcode__text">
-                    <p class="generate-QRcode__text_title">
+                    <h3 class="generate-QRcode__text_title">
                         Generate your QR-code
-                    </p>
+                    </h3>
                     <p class="generate-QRcode__text_info">
                         The guest QR code is scanned by the staff and
                         automatically sent
@@ -265,7 +266,7 @@
             </section>
             <section class="ordering">
                 <div class="ordering__text">
-                    <p class="ordering__text_title">Easier ordering.</p>
+                    <h3 class="ordering__text_title">Easier ordering.</h3>
                     <p class="ordering__text_title">Happier guests.</p>
                     <p class="ordering__text_info">
                         NoTab makes it simple for patrons to easily
@@ -274,7 +275,7 @@
                 <div class="ordering__image">
                     <img
                         src="/images/iPhone Longscroll.png"
-                        class="ordering__image_longscroll"
+                        class="ordering__image_longscroll" alt=""
                     />
                     <div class="ordering__image_box ordering__image_box-1">
                         <p
@@ -303,19 +304,19 @@
                 </div>
                 <div class="ordering__shadow"></div>
             </section>
-            <section class="notab">
+            <div class="notab">
                 <div class="notab__phone">
                     <div class="notab__phone_image">
-                        <img src="/images/phone.png" />
+                        <img src="/images/phone.png" alt="" />
                         <img
                             src="/images/Screenshot.png"
-                            class="notab__phone_image-screenshot"
+                            class="notab__phone_image-screenshot" alt=""
                         />
                     </div>
                 </div>
-            </section>
+            </div>
             <section class="connection">
-                <p class="connection__title">Get In Touch</p>
+                <h4 class="connection__title">Get In Touch</h4>
                 <div class="connection__text">
                     <p>Have questions about Noble or just want to say hello?</p>
                     <p>
@@ -369,8 +370,8 @@
             <div class="download">
                 <p class="download__title">DOWNLOAD OUR APP</p>
                 <div class="download__button">
-                    <img src="/images/download-app-store.png" />
-                    <img src="/images/download-google-play.png" />
+                    <img src="/images/download-app-store.png" alt=""/>
+                    <img src="/images/download-google-play.png" alt="" />
                 </div>
             </div>
         </main>
